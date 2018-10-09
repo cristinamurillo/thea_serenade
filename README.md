@@ -1,4 +1,4 @@
-#How to Be Serenaded
+# How to Be Serenaded
 Type the following into your terminal:
 ```
 git clone git@github.com:cristinamurillo/thea_serenade.git
@@ -16,4 +16,4 @@ bundle install
 ruby run.rb
 ```
 
-#💜 💜 💜
+# 💜 💜 💜

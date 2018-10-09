@@ -9,6 +9,8 @@ def spanish_poem
      sleep(3)
     puts "Si no sanas hoy, sanáras mañana".colorize(:green)
     sleep(3)
+    puts "Espero que te veo esta semana".colorize(:green)
+    sleep(3)
  end
  
  def english_poem
@@ -19,6 +21,7 @@ def spanish_poem
      puts "You are cool".colorize(:light_red)
      sleep(2)
      puts "I like you".colorize(:blue)
+     sleep(3)
  end
 
  def portuguese_poem
@@ -41,6 +44,30 @@ def italian_poem
     sleep(3)
 end
 
+system "clear"
+
+puts "	
+        @@@@@@           @@@@@@
+      @@@@@@@@@@       @@@@@@@@@@
+    @@@@@@@@@@@@@@   @@@@@@@@@@@@@@
+  @@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+      @@@@@@@@@@@@@@@@@@@@@@@@@@@
+        @@@@@@@@@@@@@@@@@@@@@@@
+          @@@@@@@@@@@@@@@@@@@
+            @@@@@@@@@@@@@@@
+              @@@@@@@@@@@
+                @@@@@@@
+                  @@@
+                   @".colorize(:light_red)
+
 loop do 
 prompt = TTY::Prompt.new
 
@@ -58,7 +85,7 @@ case language
     when "Exit"
         puts "👋 👋 👋"
         puts "\n"
-
+        
         break 
 end
 end 
