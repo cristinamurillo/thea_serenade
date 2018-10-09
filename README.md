@@ -1,5 +1,5 @@
 
-# How to Be Serenaded
+# How to Be Serenaded 👼🏽
 
 Type the following into your terminal:
 ```
