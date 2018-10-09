@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # How to Be Serenaded
 
 Type the following into your terminal:
