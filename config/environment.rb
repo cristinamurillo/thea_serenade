@@ -1,7 +1,7 @@
-require 'tty-prompt'
+# require 'tty-prompt'
 require 'bundler'
 Bundler.require
-require 'colorize'
+# require 'colorize'
 
 
 require_all 'run.rb'
